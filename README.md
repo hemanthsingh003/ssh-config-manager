@@ -127,22 +127,22 @@ The interface has two panels:
 ┌────────────────────────────────────────────────────────────────┐
 │                     SSH Config Manager                         │
 ├─────────────────────────┬──────────────────────────────────────┤
-│ Search... (press /)    │  Config Details                       │
-│                         │                                       │
-│ ▼ production-server     │  Host: production-server              │
-│   user@192.168.1.10    │  HostName: 192.168.1.10               │
+│ Search... (press /)     │  Config Details                      │
+│                         │                                      │
+│ ▼ production-server     │  Host: production-server             │
+│   user@192.168.1.10     │  HostName: 192.168.1.10              │
 │                         │  User: admin                         │
-│   staging-server        │  Port: 22                             │
-│   user@192.168.1.20    │  IdentityFile: ~/.ssh/id_rsa          │
-│                         │                                       │
-│   dev-machine          │  Password: stored                     │
-│   user@localhost       │                                       │
+│   staging-server        │  Port: 22                            │
+│   user@192.168.1.20     │  IdentityFile: ~/.ssh/id_rsa         │
+│                         │                                      │
+│   dev-machine           │  Password: stored                    │
+│   user@localhost        │                                      │
 │                         │  SSH Command:                        │
-│                         │  ssh -i ~/.ssh/id_rsa                 │
+│                         │  ssh -i ~/.ssh/id_rsa                │
 │                         │    admin@192.168.1.10                │
-│                         │                                       │
+│                         │                                      │
 ├─────────────────────────┴──────────────────────────────────────┤
-│ vim-like: j/k=navigate  /=search  a=add  e=edit  d=delete ... │
+│ vim-like: j/k=navigate  /=search  a=add  e=edit  d=delete ...  │
 └────────────────────────────────────────────────────────────────┘
 ```
 
